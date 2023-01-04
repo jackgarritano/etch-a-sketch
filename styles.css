@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #9B5DE5;
+}
+
+.gridcontainer{
+    margin-top: 4vh;
+    display:grid;
+    width:90vw;
+    height:88vh;
+    border:1px solid #00F5D4;
+}
+.cell{
+    border:.5px solid #00F5D4;
+    color:#9b5de5;
+}
+button{
+    display:inline;
+    size:2em;
+}
+.form-row{
+    display:inline;
+    
+}
+label{
+    font-size: 2em;
+    color:#00F5D4;
+}
+
+input[type="text"], button{
+    height: 2em;
+    font-size:1.2em;
+    /*position:relative;
+    bottom:.25em;*/
+    background-color: #00BBF9;
+    color:#FEE440;
+    border-color:#9B5DE5;
+}
