@@ -29,7 +29,7 @@ label{
     color:#00F5D4;
 }
 
-input[type="text"], button{
+input[type="number"], button{
     height: 2em;
     font-size:1.2em;
     /*position:relative;
